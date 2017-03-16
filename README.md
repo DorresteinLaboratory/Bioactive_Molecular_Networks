@@ -34,6 +34,6 @@ Step 3 - GNPS and Cytoscape
 - In Cytoscape, bypass the style of these nodes as needed.
 
 Troubleshooting
-- If there is an error, make sure to use your input file as the same format as template features_quantification_matrix_edited_bioactivity.csv
+- If there is an error, make sure to use your input file as the same format as the template features_quantification_matrix_edited_bioactivity.csv
 - Rerun the workflow.
-- If an error is still showing. Please raise an issue in GitHub and will solve that.
+- If an error is still showing. Please raise an issue in GitHub and we will solve that.
