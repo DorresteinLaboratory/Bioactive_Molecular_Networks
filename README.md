@@ -5,6 +5,7 @@ Bioactive molecular networks is comprehensive workflow designed by the Dorrestei
 ## Installation:
 Optimus:
 - Refers to https://github.com/MolecularCartography/Optimus
+
 Jupyter:
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/
 - Install R, https://www.r-project.org/ (if needed add the path to your system)
