@@ -28,6 +28,8 @@ Step 2 - Jupyter:
 Step 3 - GNPS:
 - Go on http://gnps.ucsd.edu
 - Run a Data Analysis job. See GNPS documentation https://bix-lab.ucsd.edu/display/Public/GNPS+Documentation+Page or video tutorials https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos
+- Import your molecular network in Cytoscape.
+- In Cytoscape, import the table features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv into your molecular network.
 
 Troubleshooting
 - If there is an error, make sure to use your input file as the same format as template features_quantification_matrix_edited_bioactivity.csv
