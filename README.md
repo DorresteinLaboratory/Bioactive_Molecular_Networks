@@ -3,15 +3,15 @@
 Bioactive molecular networks is comprehensive workflow designed by the Dorrestein Lab (UCSD) that integrates MS/MS molecular networking and bioassay into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, including Optimus [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and GNPS web-platform (http://gnps.ucsd.edu). The code is released as a Jupyter notebook for easiness and reproducibility. This notebook has been prepared by Ricardo Silva (UCSD).
 
 ## Installation:
-Optimus:
+### Optimus:
 - Refers to https://github.com/MolecularCartography/Optimus
 
-Jupyter:
+### Jupyter:
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/
 - Install R, https://www.r-project.org/ (if needed add the path to your system).
 - Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/ 
 
-GNPS and Cytoscape:
+### GNPS and Cytoscape:
 - You will need Cytoscape version 3.4, http://www.cytoscape.org/
 
 ## Run the Bioactive Molecular Networks workflow
