@@ -9,6 +9,7 @@ Jupyter:
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/
 - Install R, https://www.r-project.org/ (if needed add the path to your system)
 - Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/ 
+
 GNPS:
 - You will need Cytoscape version 3.4, http://www.cytoscape.org/
 
