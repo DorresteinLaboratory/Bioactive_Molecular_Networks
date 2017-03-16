@@ -11,7 +11,7 @@ Jupyter:
 - Install R, https://www.r-project.org/ (if needed add the path to your system).
 - Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/ 
 
-GNPS:
+GNPS and Cytoscape:
 - You will need Cytoscape version 3.4, http://www.cytoscape.org/
 
 ## Run the Bioactive Molecular Networks workflow
@@ -25,11 +25,13 @@ Step 2 - Jupyter:
 - Run the Jupyter workflow by clicking in menu Cell/Run All, and wait for the notebook to process (should be less than 30 sec).
 - Download the output file features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv
 
-Step 3 - GNPS:
+Step 3 - GNPS and Cytoscape
 - Go on http://gnps.ucsd.edu
 - Run a Data Analysis job. See GNPS documentation https://bix-lab.ucsd.edu/display/Public/GNPS+Documentation+Page or video tutorials https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos
 - Import your molecular network in Cytoscape.
 - In Cytoscape, import the table features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv into your molecular network.
+- In Cytoscape, use the Select function to select the nodes with significant bioactivity.
+- In Cytoscape, bypass the style of these nodes as needed.
 
 Troubleshooting
 - If there is an error, make sure to use your input file as the same format as template features_quantification_matrix_edited_bioactivity.csv
