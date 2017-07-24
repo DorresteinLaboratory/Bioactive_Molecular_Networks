@@ -21,7 +21,7 @@ Bioactive molecular networks is comprehensive workflow designed by the Dorrestei
 NB: Template files for each steps are available in the folder TEMPLATE_FILE https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
 
 ### Step 1 - MZmine2 or Optimus:
-- MZmine2: Process your data following instructions described in the GNPS data analysis workflow 2.0 (https://bix-lab.ucsd.edu/display/Public/GNPS+data+analysis+workflow+2.0). For the .CSV export module, by default the dedicated Jupyter notebook will use process table including "Export row ID", "Export row m/z", "Export row retention time", and "Peak area". See the template provided.
+- MZmine2: Process your data following instructions described in the GNPS data analysis workflow 2.0 (https://bix-lab.ucsd.edu/display/Public/GNPS+data+analysis+workflow+2.0). For the .CSV export module, by default the dedicated Jupyter notebook will use a table including "Export row ID", "Export row m/z", "Export row retention time", and "Peak area". See the template provided.
 
 - Optimus: Refers to https://github.com/MolecularCartography/Optimus
 
