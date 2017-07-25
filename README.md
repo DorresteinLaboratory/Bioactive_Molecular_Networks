@@ -3,8 +3,8 @@ Bioactive molecular networks is comprehensive workflow designed by the Dorrestei
 
 ## Installation:
 ### Install MZmine2 or Optimus
-- MZmine2: Download MZmine2 (version 2.28 minimum) http://mzmine.github.io/
-- Optimus: Refers to https://github.com/MolecularCartography/Optimus
+- For MZmine2: Download MZmine2 (version 2.28 minimum) http://mzmine.github.io/
+- For Optimus: Refers to https://github.com/MolecularCartography/Optimus
 
 ### Jupyter:
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/
