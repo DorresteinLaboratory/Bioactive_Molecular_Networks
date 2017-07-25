@@ -1,13 +1,10 @@
 # Bioactive Molecular Networks
-
 Bioactive molecular networks is comprehensive workflow designed by the Dorrestein Lab (UCSD) that integrates MS/MS molecular networking and bioassay into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and GNPS web-platform (http://gnps.ucsd.edu). The code is released as a Jupyter notebook for easiness and reproducibility. This notebook has been prepared by Dr. Ricardo Silva (UCSD).
 
 ## Installation:
-### MZmine2:
-- Download MZmine2 (version 2.28 minimum) http://mzmine.github.io/
-
-### Optimus:
-- Refers to https://github.com/MolecularCartography/Optimus
+### Install MZmine2 or Optimus
+- MZmine2: Download MZmine2 (version 2.28 minimum) http://mzmine.github.io/
+- Optimus: Refers to https://github.com/MolecularCartography/Optimus
 
 ### Jupyter:
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/
