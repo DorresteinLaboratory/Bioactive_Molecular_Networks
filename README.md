@@ -22,11 +22,14 @@ NB: Template files for each steps are available in the folder TEMPLATE_FILE http
 
 - Optimus: Refers to https://github.com/MolecularCartography/Optimus
 
+NB: make sure to add the bioactivity value for each sample. Alternatively used any other quantitative variable instead.
+
 ### Step 2 - Jupyter:
-- Upload the Jupyter notebook Bioactive_molecular_networks_MZmine2.ipynb or Bioactive_molecular_networks_Optimus.ipynb in your Jupyter environment.
-- In Jupyter, add your input file features_quantification_matrix_edited_bioactivity.csv in the same folder. 
-- In your Jupyter environment, open the Bioactive_molecular_networks.ipynb Jupyter notebook.
-- Run the Jupyter workflow by clicking in menu Cell/Run All, and wait for the notebook to process (should be less than 30 sec).
+- Upload the Jupyter notebook Bioactive_molecular_networks_v1.0.ipynb in your Jupyter environment.
+- Add your MZmine or Optimus input file (features_quantification_matrix_edited_bioactivity.csv) in the notebook folder. 
+- In your Jupyter environment, open the Bioactive_molecular_networks_v1.0.ipynb Jupyter notebook.
+- Specify the path to the input table. If you used an MZmine output table, start at cell 1. If you use an Optimus output table, skip cells 1-3 and start directly at cell 4. 
+- Run the Jupyter notebook by clicking in menu Cell/Run All, and wait for the notebook to process (should be less than 30 sec). Informations are provided as comments in each cells.
 - Download the output file features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv
 
 ### Step 3 - GNPS and Cytoscape
@@ -34,11 +37,12 @@ NB: Template files for each steps are available in the folder TEMPLATE_FILE http
 - Run a Data Analysis job following the GNPS data analysis 2.0 workflow. Important: the molecular networks will be generated from the .MGF file export with MZmine2 or Optimus, and MS-Cluster will not be used. See GNPS documentation https://bix-lab.ucsd.edu/display/Public/GNPS+data+analysis+workflow+2.0 and video tutorials for how to use GNPS https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos
 - Import your molecular networks in Cytoscape following GNPS documentation https://bix-lab.ucsd.edu/display/Public/Molecular+Networking+Documentation
 - In Cytoscape, import the output table of the Jupyter notebook (features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv) into your molecular networks.
-- In Cytoscape, use the Select function to select the nodes with significant bioactivity.
-- In Cytoscape, bypass the style of these nodes as needed.
+- In Cytoscape, use the Select function to select the nodes with significant bioactivity (typical threshold would r2 > 0.8 and p-value < -0.02).
+- In Cytoscape, bypass the style of these nodes as needed (the node size or node shape can be used to visualize). Piechart diagrams can be used to display the distribution of an ion accross samples.
 
 ## Troubleshooting
-- If there is an error, make sure your input file are similar as the template provided on GitHub.
+- If there is an error, make sure your input file are similar as the templates provided on GitHub.
 https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
-- Rerun the workflow. Try eventually with a template file.
-- If an error is still showing. Please raise an issue in GitHub and we will look into this.
+- Rerun the workflow. Try eventually with a template file to verify that the notebook is not corrupted.
+- If there is still an error, download a fresh notebook and retry.
+- If an error is still showing up. Please raise an issue in GitHub and we will look into this.
