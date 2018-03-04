@@ -9,17 +9,17 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 
 ### Table of contents
 
-* [Installation and system requirements](#installation)
-  * [Install MZmine2 or Optimus](#Install-MZmine2-or-Optimus)
-  * [Jupyter notebook and R](#jupyter_notebook)
+* [Installation and system requirements](#installation-and-system-requirements)
+  * [Install MZmine2 or Optimus](#install-mzmine2-or-optimus)
+  * [Jupyter notebook and R](#jupyter-notebook-and-r)
   * [GNPS and Cytoscape](#GNPS)
-* [Run the Bioactive Molecular Networks workflow](#installation)
-  * [The bioactive molecular networking workflow](#Workflow)
-  * [Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data](#MZmine_Optimus)
-  * [Step 2 - Running the Jupyter notebook](#jupyter-notebook)
-  * [Step 3 - GNPS and Cytoscape](#GNPS_Cytoscape)
-* [Tools employed in the workflow](#tools)
-* [Help and Troubleshooting](#help)
+* [Run the Bioactive Molecular Networks workflow](#running-the-bioactive-molecular-networks-workflow)
+  * [The bioactive molecular networking workflow](#the-bioactive-molecular-networking-workflow)
+  * [Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data](#step-1---mzmine2-or-optimus-lc-msms-processing-and-bioassay-data)
+  * [Step 2 - Running the Jupyter notebook](#step-2---running-the-jupyter-notebook)
+  * [Step 3 - GNPS and Cytoscape](#step-3---gnps-and-cytoscape)
+* [Tools employed in the workflow](#tools-employed-in-the-workflow)
+* [Help and Troubleshooting](#help-and-troubleshooting)
 * [License](#license)
 
 ## Installation and system requirements:
@@ -86,9 +86,9 @@ MZmine: Pluskal, T.; Castillo, S.; Villar-Briones, A.; Oresic, M. MZmine 2: Modu
 
 OpenMS: Röst, H. L.; Sachsenberg, T.; Aiche, S.; Bielow, C.; Weisser, H.; Aicheler, F.; Andreotti, S.; Ehrlich, H.-C.; Gutenbrunner, P.; Kenar, E.; et al. OpenMS: A Flexible Open-Source Software Platform for Mass Spectrometry Data Analysis. Nat. Methods 2016, 13 (9), 741–748. https://www.nature.com/articles/nmeth.3959
 
-Protsyuk, I.; Melnik, A. V.; Nothias, L.-F.; Rappez, L.; Phapale, P.; Aksenov, A. A.; Bouslimani, A.; Ryazanov, S.; Dorrestein, P. C.; Alexandrov, T. 3D Molecular Cartography Using LC-MS Facilitated by Optimus and ’Ili Software. Nat. Protoc. 2018, 13 (1), 134–154. https://www.nature.com/articles/nprot.2017.122
+Optimus: Protsyuk, I.; Melnik, A. V.; Nothias, L.-F.; Rappez, L.; Phapale, P.; Aksenov, A. A.; Bouslimani, A.; Ryazanov, S.; Dorrestein, P. C.; Alexandrov, T. 3D Molecular Cartography Using LC-MS Facilitated by Optimus and ’Ili Software. Nat. Protoc. 2018, 13 (1), 134–154. https://www.nature.com/articles/nprot.2017.122
 
-Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N. S.; Wang, J. T.; Ramage, D.; Amin, N.; Schwikowski, B.; Ideker, T. Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks. Genome Res. 2003, 13 (11), 2498–2504. https://www.ncbi.nlm.nih.gov/pubmed/14597658
+Cytoscape: Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N. S.; Wang, J. T.; Ramage, D.; Amin, N.; Schwikowski, B.; Ideker, T. Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks. Genome Res. 2003, 13 (11), 2498–2504. https://www.ncbi.nlm.nih.gov/pubmed/14597658
 
 ## Help and Troubleshooting
 - Jupyter notebook: there are multiple online ressources and videos available to present the functionality of Jupyter notebooks. Such as: https://www.youtube.com/watch?v=jZ952vChhuI&t=210s
