@@ -20,7 +20,7 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
   * [Step 3 - GNPS and Cytoscape](#step-3---gnps-and-cytoscape)
 * [Tools employed in the workflow](#tools-employed-in-the-workflow)
 * [Help and Troubleshooting](#help-and-troubleshooting)
-* [License](#license)
+* [License](#licence)
 
 ## Installation and system requirements:
 ### Install MZmine2 or Optimus
@@ -99,6 +99,5 @@ https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master
 - If an error is still showing up. Please raise an issue in GitHub and we will look into this.
 
 ## Licence
-
 https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/blob/master/LICENSE.md
 
