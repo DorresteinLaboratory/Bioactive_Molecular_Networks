@@ -5,7 +5,24 @@ Bioactive molecular networks is comprehensive workflow designed by the Dorrestei
 Bioactive molecular networking: Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; et al. Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. J. Nat. Prod. 2018.
 https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 
-## Installation:
+<img src="img/bioactive_molecular_network_abstract.png"/>
+
+### Table of contents
+
+* [Installation and system requirements](#installation)
+  * [Install MZmine2 or Optimus](#Install-MZmine2-or-Optimus)
+  * [Jupyter notebook and R](#jupyter_notebook)
+  * [GNPS and Cytoscape](#GNPS)
+* [Run the Bioactive Molecular Networks workflow](#installation)
+  * [The bioactive molecular networking workflow](#Workflow)
+  * [Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data](#MZmine_Optimus)
+  * [Step 2 - Running the Jupyter notebook](#jupyter-notebook)
+  * [Step 3 - GNPS and Cytoscape](#GNPS_Cytoscape)
+* [Tools employed in the workflow](#tools)
+* [Help and Troubleshooting](#help)
+* [License](#license)
+
+## Installation and system requirements:
 ### Install MZmine2 or Optimus
 - For MZmine2: Download MZmine2 (version 2.31) http://mzmine.github.io/
 - For Optimus: Refers to https://github.com/MolecularCartography/Optimus
@@ -19,8 +36,11 @@ The Jupyter Notebook is an open-source web application that allows you to create
 ### GNPS and Cytoscape:
 - You will need to install Cytoscape version 3.4, http://www.cytoscape.org/
 
-## Run the Bioactive Molecular Networks workflow
+## Running the Bioactive Molecular Networks workflow
 NB: Template files for each steps are available in the folder TEMPLATE_FILE https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
+
+### The bioactive molecular networking workflow
+<img src="img/bioactive_molecular_network_workflow.png"/>
 
 ### Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data
 ####The step 1 will output:
@@ -57,6 +77,8 @@ NB: alternatively any other quantitative variable can be used instead (pH, metab
 - In Cytoscape, use the Select function to select the nodes with significant bioactivity (typical threshold would be r2 > 0.8 and p-value < -0.02).
 - In Cytoscape, bypass the style of these nodes as needed (the node size or node shape can be used to visualize). Piechart diagrams can be used to display the distribution of an ion accross samples.
 
+<img src="img/bioactive_molecular_network_preview.png"/>
+
 ## Tools employed in the workflow
 GNPS: Wang, M.; Carver, J. J.; Phelan, V. V.; Sanchez, L. M.; Garg, N.; Peng, Y.; Nguyen, D. D.; Watrous, J.; Kapono, C. A.; Luzzatto-Knaan, T.; et al. Sharing and Community Curation of Mass Spectrometry Data with Global Natural Products Social Molecular Networking. Nat. Biotechnol. 2016, 34 (8), 828–837. https://www.nature.com/articles/nbt.3597
 
@@ -75,3 +97,8 @@ https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master
 - Rerun the workflow. Try eventually with a template file provided to verify that the notebook is not corrupted.
 - If there is still an error, download a fresh notebook and retry.
 - If an error is still showing up. Please raise an issue in GitHub and we will look into this.
+
+## Licence
+
+https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/blob/master/LICENSE.md
+
