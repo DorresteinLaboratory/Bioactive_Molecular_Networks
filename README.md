@@ -1,5 +1,6 @@
 # Bioactive Molecular Networks
-Bioactive molecular networks is comprehensive workflow designed by the Dorrestein Lab (UCSD) that integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus (using OpenMS) [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and GNPS web-platform (http://gnps.ucsd.edu). The code is released as a Jupyter notebook for easiness and reproducibility. The jupyter notebook has been prepared by Dr. Ricardo Silva (UCSD).
+The bioactive molecular network workflow integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus (using OpenMS) [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and the GNPS web-platform (http://gnps.ucsd.edu).
+The code is released as a Jupyter notebook for easiness and reproducibility. The jupyter notebook has been prepared by Dr. Ricardo Silva (UCSD).
 
 ## Citation
 Bioactive molecular networking: Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; et al. Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. J. Nat. Prod. 2018.
@@ -13,8 +14,8 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
   * [Install MZmine2 or Optimus](#install-mzmine2-or-optimus)
   * [Jupyter notebook and R](#jupyter-notebook-and-r)
   * [GNPS and Cytoscape](#GNPS)
-* [Run the Bioactive Molecular Networks workflow](#running-the-bioactive-molecular-networks-workflow)
-  * [The bioactive molecular networking workflow](#the-bioactive-molecular-networking-workflow)
+* [Running the bioactive molecular networking workflow](#running-the-bioactive-molecular-networks-workflow)
+  * [The bioactive molecular networking workflow procedure](#the-bioactive-molecular-networking-workflow)
   * [Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data](#step-1---mzmine2-or-optimus-lc-msms-processing-and-bioassay-data)
   * [Step 2 - Running the Jupyter notebook](#step-2---running-the-jupyter-notebook)
   * [Step 3 - GNPS and Cytoscape](#step-3---gnps-and-cytoscape)
@@ -36,7 +37,7 @@ The Jupyter Notebook is an open-source web application that allows you to create
 ### GNPS and Cytoscape:
 - You will need to install Cytoscape version 3.4, http://www.cytoscape.org/
 
-## Running the Bioactive Molecular Networks workflow
+## Running the bioactive molecular networking workflow procedure
 NB: Template files for each steps are available in the folder TEMPLATE_FILE https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
 
 ### The bioactive molecular networking workflow
