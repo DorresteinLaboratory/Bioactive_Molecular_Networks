@@ -6,6 +6,7 @@ The code is released as a Jupyter notebook for easiness and reproducibility. The
 Bioactive molecular networking: Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; et al. Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. J. Nat. Prod. 2018.
 https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 
+### Graphic abstract
 <img src="img/bioactive_molecular_network_abstract.png"/>
 
 ### Table of contents
