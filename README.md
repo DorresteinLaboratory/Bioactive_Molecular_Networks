@@ -79,7 +79,7 @@ NB: alternatively any other quantitative variable can be used instead (pH, metab
 - In Cytoscape, use the Select function to select the nodes with significant bioactivity (typical threshold would be r2 > 0.8 and p-value < -0.02).
 - In Cytoscape, bypass the style of these nodes as needed (the node size or node shape can be used to visualize). Piechart diagrams can be used to display the distribution of an ion accross samples.
 
-### Figure from the manuscript Nothias et al 2018.
+#### Figure from the manuscript Nothias et al 2018
 <img src="img/bioactive_molecular_network_preview.png"/>
 
 ## Tools employed in the workflow
