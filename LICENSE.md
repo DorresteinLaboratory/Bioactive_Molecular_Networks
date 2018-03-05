@@ -1,4 +1,4 @@
-The MIT Open licence
+## The MIT Open licence
 https://opensource.org/licenses/MIT
 
 The present licence applies solely to the Jupyte notebooks available on the https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/ repository.
