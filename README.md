@@ -6,7 +6,7 @@ The code is released as a Jupyter notebook for easiness and reproducibility. The
 Bioactive molecular networking: Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; et al. Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. J. Nat. Prod. 2018.
 https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 
-### Graphic abstract
+### Graphical abstract
 <img src="img/bioactive_molecular_network_abstract.png"/>
 
 ### Table of contents
@@ -79,6 +79,7 @@ NB: alternatively any other quantitative variable can be used instead (pH, metab
 - In Cytoscape, use the Select function to select the nodes with significant bioactivity (typical threshold would be r2 > 0.8 and p-value < -0.02).
 - In Cytoscape, bypass the style of these nodes as needed (the node size or node shape can be used to visualize). Piechart diagrams can be used to display the distribution of an ion accross samples.
 
+### Figure from the manuscript Nothias et al 2018.
 <img src="img/bioactive_molecular_network_preview.png"/>
 
 ## Tools employed in the workflow
@@ -101,5 +102,6 @@ https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master
 - If an error is still showing up. Please raise an issue in GitHub and we will look into this.
 
 ## Licence
+The Jupyter notebooks available on this GitHub are available under the MIT Open licence.
 https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/blob/master/LICENSE.md
 
