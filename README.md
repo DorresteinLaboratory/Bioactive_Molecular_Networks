@@ -45,7 +45,7 @@ NB: Template files for each steps are available in the folder TEMPLATE_FILE http
 <img src="img/bioactive_molecular_network_workflow.png"/>
 
 ### Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data
-####The step 1 will output:
+#### The step 1 will output:
 - a feature table (features_quantification_matrix.csv) that contains the aligned list of features and their intensity accross the fractions analyzed by LC-MS/MS
 - a .MGF file containing the MS/MS spectral data
   
@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=zDcY7iuvyQY
 NB: alternatively any other quantitative variable can be used instead (pH, metabolite, concentration, ....)
 
 ### Step 2 - Running the Jupyter notebook:
-####The step 2 will calculate the Pearson correlation score and the its significance for every detected features, against the result of the bioassay, and output a table that can imported into Cytoscape:
+#### The step 2 will calculate the Pearson correlation score and the its significance for every detected features, against the result of the bioassay, and output a table that can imported into Cytoscape:
 
 - Upload the Jupyter notebook Bioactive_molecular_networks_v1.0.ipynb in your Jupyter environment.
 - Upload your MZmine or Optimus input file (features_quantification_matrix_edited_bioactivity.csv) in the notebook folder. 
@@ -95,7 +95,7 @@ Cytoscape: Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N. S.; Wang, J. T.; Rama
 
 ## Help and Troubleshooting
 - Jupyter notebook: there are multiple online ressources and videos available to present the functionality of Jupyter notebooks. Such as: https://www.youtube.com/watch?v=jZ952vChhuI&t=210s
-- If there is an error, make sure your input file are similar as the templates provided on GitHub.
+- If there is an error, make sure your input file are similar to the template files provided on GitHub.
 https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
 - Rerun the workflow. Try eventually with a template file provided to verify that the notebook is not corrupted.
 - If there is still an error, download a fresh notebook and retry.
