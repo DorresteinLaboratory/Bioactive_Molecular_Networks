@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=zDcY7iuvyQY
 NB: alternatively any other quantitative variable can be used instead (pH, metabolite, concentration, ....)
 
 ### Step 2 - Running the Jupyter notebook:
-####The step 2 will calculate the Pearson correlation score and the its significance for every detected features, against the result of the bioassay, and output a table that can imported into Cytoscape:
+#### The step 2 will calculate the Pearson correlation score and the its significance for every detected features, against the result of the bioassay, and output a table that can imported into Cytoscape:
 
 - Upload the Jupyter notebook Bioactive_molecular_networks_v1.0.ipynb in your Jupyter environment.
 - Upload your MZmine or Optimus input file (features_quantification_matrix_edited_bioactivity.csv) in the notebook folder. 
