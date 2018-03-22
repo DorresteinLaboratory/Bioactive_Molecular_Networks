@@ -95,7 +95,7 @@ Cytoscape: Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N. S.; Wang, J. T.; Rama
 
 ## Help and Troubleshooting
 - Jupyter notebook: there are multiple online ressources and videos available to present the functionality of Jupyter notebooks. Such as: https://www.youtube.com/watch?v=jZ952vChhuI&t=210s
-- If there is an error, make sure your input file are similar as the templates provided on GitHub.
+- If there is an error, make sure your input file are similar to the template files provided on GitHub.
 https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
 - Rerun the workflow. Try eventually with a template file provided to verify that the notebook is not corrupted.
 - If there is still an error, download a fresh notebook and retry.
