@@ -45,7 +45,7 @@ NB: Template files for each steps are available in the folder TEMPLATE_FILE http
 <img src="img/bioactive_molecular_network_workflow.png"/>
 
 ### Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data
-####The step 1 will output:
+#### The step 1 will output:
 - a feature table (features_quantification_matrix.csv) that contains the aligned list of features and their intensity accross the fractions analyzed by LC-MS/MS
 - a .MGF file containing the MS/MS spectral data
   
