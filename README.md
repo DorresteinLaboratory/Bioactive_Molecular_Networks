@@ -30,7 +30,7 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 - For Optimus: Refers to https://github.com/MolecularCartography/Optimus
 
 ### Jupyter notebook and R:
-The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. 
+The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Note that the notebook is available as an R script also.
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/ . Note that Anaconda is convenient environment manager:
 - This notebook requires R install. First Install R, https://www.r-project.org/ (if needed add the path to your system). Then, as the notebook needs an R kernel in Jupyter notebook, please try to install it. https://github.com/IRkernel/IRkernel
 - Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/
@@ -64,6 +64,8 @@ NB: alternatively any other quantitative variable can be used instead (pH, metab
 
 ### Step 2 - Running the Jupyter notebook:
 #### The step 2 will calculate the Pearson correlation score and the its significance for every detected features, against the result of the bioassay, and output a table that can imported into Cytoscape:
+
+NB: note that the notebook is available as an R script as well (Bioactive_Molecular_Networks_v1.1_MZmine2.r).
 
 - Upload the Jupyter notebook Bioactive_molecular_networks_v1.0.ipynb in your Jupyter environment.
 - Upload your MZmine or Optimus input file (features_quantification_matrix_edited_bioactivity.csv) in the notebook folder. 
