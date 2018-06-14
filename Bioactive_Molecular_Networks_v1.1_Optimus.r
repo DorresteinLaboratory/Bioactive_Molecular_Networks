@@ -3,7 +3,7 @@
 
 #The bioactive molecular network workflow integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus (using OpenMS) [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and the GNPS web-platform (http://gnps.ucsd.edu).
 
-#The code is available as R.
+#The code is available as an R script.
 
 #Citation:
 #Bioactive molecular networking: Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; Paolini J., Alexandrov T., Litaudon M., Dorrestein, P. Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. J. Nat. Prod. 2018.
