@@ -1,3 +1,31 @@
+#Bioactive molecular networking notebook v1.1 (Optimus)¶
+#Website: https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks
+
+#The bioactive molecular network workflow integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus (using OpenMS) [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and the GNPS web-platform (http://gnps.ucsd.edu).
+
+#The code is available as R.
+
+#Citation:
+#Bioactive molecular networking: Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; Paolini J., Alexandrov T., Litaudon M., Dorrestein, P. Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. J. Nat. Prod. 2018.
+
+#Manuscript:
+#(Open access) https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
+
+#Instructions to run the notebook
+#-> This notebook is suitable for Optimus feature table.
+
+#-> Make sure R is installed in your environment.
+
+#-> Upload your files to the jupyter notebook folder.
+
+#-> In cell 1, update the file name if needed (in red).
+
+#-> Run all cells by clicking on: Cell / Run All Below.
+
+#-> Get the output file table.
+
+
+
 
 # Load and inspect the .CSV features table.
 # Change the name in the code below if needed (.CSV file in red)
