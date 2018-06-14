@@ -30,10 +30,11 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 - For Optimus: Refers to https://github.com/MolecularCartography/Optimus
 
 ### Jupyter notebook and R:
-The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
-- For the Jupyter notebook: install Jupyter on http://jupyter.org/
-- Install R, https://www.r-project.org/ (if needed add the path to your system).
-- Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/ 
+The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. 
+- For the Jupyter notebook: install Jupyter on http://jupyter.org/ . Note that Anaconda is convenient environment manager:
+- This notebook requires R install. First Install R, https://www.r-project.org/ (if needed add the path to your system). Then, as the notebook needs an R kernel in Jupyter notebook, please try to install it. https://github.com/IRkernel/IRkernel
+- Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/
+Make sure, the R kernel is selected for the notebook.
 
 ### GNPS and Cytoscape:
 - You will need to install Cytoscape version 3.4, http://www.cytoscape.org/
@@ -67,7 +68,8 @@ NB: alternatively any other quantitative variable can be used instead (pH, metab
 - Upload the Jupyter notebook Bioactive_molecular_networks_v1.0.ipynb in your Jupyter environment.
 - Upload your MZmine or Optimus input file (features_quantification_matrix_edited_bioactivity.csv) in the notebook folder. 
 - In your Jupyter environment, open the Bioactive_molecular_networks_v1.0.ipynb Jupyter notebook.
-- Specify the path to the input table. If you used an MZmine output table, start at cell 1. If you use an Optimus output table, skip cells 1-3 and start directly at cell 4. 
+- Make sure the R kernel is selected in the notebook.
+- In the notebook, specify the path to the input table. If you used an MZmine output table, start at cell 1. If you use an Optimus output table, skip cells 1-3 and start directly at cell 4. 
 - Run the Jupyter notebook by clicking in menu Cell/Run All, and wait for the notebook to process (should be less than 30 sec). Informations are provided as comments in each cells.
 - Download the output file features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv
 
