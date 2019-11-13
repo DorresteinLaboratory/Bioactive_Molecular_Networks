@@ -11,6 +11,7 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 
 ### Table of contents
 
+* [Try online with Binder](#try-online-with-binder)
 * [Installation and system requirements](#installation-and-system-requirements)
   * [Install MZmine2 or Optimus](#install-mzmine2-or-optimus)
   * [Jupyter notebook and R](#jupyter-notebook-and-r)
@@ -23,6 +24,10 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 * [Tools employed in the workflow](#tools-employed-in-the-workflow)
 * [Help and Troubleshooting](#help-and-troubleshooting)
 * [License](#licence)
+
+## Try online with Binder
+You can quickly launch the notebooks of this repository using [Binder](https://mybinder.org/) by clicking this badge :
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yogeek/Bioactive_Molecular_Networks/master)
 
 ## Installation and system requirements:
 ### Install MZmine2 or Optimus
