@@ -27,7 +27,7 @@ https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
 
 ## Try online with Binder
 You can quickly launch the notebooks of this repository using [Binder](https://mybinder.org/) by clicking this badge :
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yogeek/Bioactive_Molecular_Networks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DorresteinLaboratory/Bioactive_Molecular_Networks/master)
 
 ## Installation and system requirements:
 ### Install MZmine2 or Optimus
