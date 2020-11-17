@@ -1,12 +1,11 @@
 # Bioactive Molecular Networks
-The bioactive molecular network workflow integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus (using OpenMS) [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and the GNPS web-platform (http://gnps.ucsd.edu).
+The bioactive molecular network workflow integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such [MZmine2](http://mzmine.github.io/) or [Optimus](https://github.com/MolecularCartography/Optimus) (using OpenMS), a Jupyter notebook, and the GNPS web-platform (http://gnps.ucsd.edu).
 The code is released as a Jupyter notebook for easiness and reproducibility. The jupyter notebook has been prepared by Dr. Ricardo Silva (UCSD).
 
 ## Citations
-Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; Paolini J., Alexandrov T., Litaudon M., Dorrestein, P.; et al.  J. Nat. Prod. 2018. 
-https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
+[Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation](https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737). Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; Paolini J., Alexandrov T., Litaudon M., Dorrestein, P.; et al.  J. Nat. Prod. 81, 4, 758–767, (2018). 
 
-Feature-based molecular networking in the GNPS analysis environment. Nothias, L.-F., Petras, D., Schmid, R. et al. Nat. Methods 17, 905–908 (2020). [https://www.nature.com/articles/s41592-020-0933-6](https://www.nature.com/articles/s41592-020-0933-6)
+[Feature-based molecular networking in the GNPS analysis environment](https://www.nature.com/articles/s41592-020-0933-6). Nothias, L.-F., Petras, D., Schmid, R. et al. Nat. Methods 17, 905–908 (2020).
 
 ### Graphical abstract
 <img src="img/bioactive_molecular_network_abstract.png"/>
@@ -39,15 +38,15 @@ You can quickly launch the notebooks of this repository using [Binder](https://m
 ### Jupyter notebook and R:
 The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Note that the notebook is available as an R script also.
 - For the Jupyter notebook: install Jupyter on http://jupyter.org/ . Note that Anaconda is convenient environment manager:
-- This notebook requires R install. First Install R, https://www.r-project.org/ (if needed add the path to your system). Then, as the notebook needs an R kernel in Jupyter notebook, please try to install it. https://github.com/IRkernel/IRkernel
-- Download the Jupyter notebook from the GitHub https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/
+- This notebook requires R install. First Install R, https://www.r-project.org/ (if needed add the path to your system). Then, as the notebook needs an R kernel in Jupyter notebook, please try to install it: https://github.com/IRkernel/IRkernel
+- Download the Jupyter notebook from the GitHub: https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/
 Make sure, the R kernel is selected for the notebook.
 
 ### GNPS and Cytoscape:
-- You will need to install Cytoscape version 3.4, http://www.cytoscape.org/
+- You will need to install [Cytoscape](http://www.cytoscape.org/) (minimum version 3.4).
 
 ## Running the bioactive molecular networking workflow procedure
-NB: Template files for each steps are available in the folder TEMPLATE_FILE https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES
+NB: Template files for each steps are available in the folder [TEMPLATE_FILE](https://github.com/DorresteinLaboratory/Bioactive_Molecular_Networks/tree/master/TEMPLATE_FILES)
 
 ### The bioactive molecular networking workflow
 <img src="img/bioactive_molecular_network_workflow.png"/>
@@ -86,7 +85,7 @@ NB: note that the notebook is available as an R script as well (Bioactive_Molecu
 
 ### Step 3 - GNPS and Cytoscape
 - Go on Global Natural Product Social Molecular Networking web-platform http://gnps.ucsd.edu
-- Run a Data Analysis job following the GNPS feature-based molecular networking (FBMN) workflow. Important: the molecular networks will be generated from the .MGF file export with MZmine2 or Optimus, and MS-Cluster will not be used. See the [FBMN documentation](https://ccms-ucsd.github.io/GNPSDocumentation/featurebasedmolecularnetworking/) and video tutorials for how to use GNPS https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos
+- Run a Data Analysis job following the GNPS feature-based molecular networking (FBMN) workflow. Important: the molecular networks will be generated from the .MGF file export with MZmine2 or Optimus, and MS-Cluster will not be used. See the [FBMN documentation](https://ccms-ucsd.github.io/GNPSDocumentation/featurebasedmolecularnetworking/) and [video tutorials](https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos) for how to use GNPS.
 - Import your molecular networks in Cytoscape following GNPS documentation [https://ccms-ucsd.github.io/GNPSDocumentation/](https://ccms-ucsd.github.io/GNPSDocumentation/).
 - In Cytoscape, import the output table of the Jupyter notebook (features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv) into your molecular networks.
 - In Cytoscape, use the Select function to select the nodes with significant bioactivity (typical threshold would be r2 > 0.8 and p-value < -0.02).
