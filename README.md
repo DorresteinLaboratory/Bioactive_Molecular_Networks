@@ -2,9 +2,11 @@
 The bioactive molecular network workflow integrates MS/MS molecular networking and bioassay-guided fractionation into the concept of bioactive molecular networking. The workflow relies on open bioinformatic tools, such MZmine2 [http://mzmine.github.io/] or Optimus (using OpenMS) [https://github.com/MolecularCartography/Optimus], a Jupyter notebook, and the GNPS web-platform (http://gnps.ucsd.edu).
 The code is released as a Jupyter notebook for easiness and reproducibility. The jupyter notebook has been prepared by Dr. Ricardo Silva (UCSD).
 
-## Citation
+## Citations
 Bioactivity-Based Molecular Networking for the Discovery of Drug Leads in Natural Product Bioassay-Guided Fractionation. Nothias, L.-F.; Nothias-Esposito, M.; da Silva, R.; Wang, M.; Protsyuk, I.; Zhang, Z.; Sarvepalli, A.; Leyssen, P.; Touboul, D.; Costa, J.; Paolini J., Alexandrov T., Litaudon M., Dorrestein, P.; et al.  J. Nat. Prod. 2018. 
 https://pubs.acs.org/doi/10.1021/acs.jnatprod.7b00737
+
+Feature-based molecular networking in the GNPS analysis environment. Nothias, L.-F., Petras, D., Schmid, R. et al. Nat. Methods 17, 905–908 (2020). [https://www.nature.com/articles/s41592-020-0933-6](https://www.nature.com/articles/s41592-020-0933-6)
 
 ### Graphical abstract
 <img src="img/bioactive_molecular_network_abstract.png"/>
@@ -52,17 +54,19 @@ NB: Template files for each steps are available in the folder TEMPLATE_FILE http
 
 ### Step 1 - MZmine2 or Optimus LC-MS/MS processing, and bioassay data
 #### The step 1 will output:
-- a feature table (features_quantification_matrix.csv) that contains the aligned list of features and their intensity accross the fractions analyzed by LC-MS/MS
-- a .MGF file containing the MS/MS spectral data
+- a feature quantification table (features_quantification_matrix.csv) that contains the aligned list of features and their intensity accross the fractions analyzed by LC-MS/MS
+- a .MGF file containing the MS/MS spectral summary.
   
 #### MZmine2:
-Process your data following instructions described in the GNPS data analysis workflow 2.0 (https://bix-lab.ucsd.edu/display/Public/GNPS+data+analysis+workflow+2.0#GNPSdataanalysisworkflow2.0-GNPSdataanalysisworkflow2.0%3AOFFLINEversion). 
-Note that two options in the "Peak list row filter" are needed "Keep only features with MS/MS scan (GNPS)", 'Reset the peak number". By default, the bioactive molecular networks Jupyter notebook requires a table exported with the 'Export to CSV' module in MZmine, that includes 'Export row ID', 'Export row m/z', 'Export row retention time', and 'Peak area'. See the template provided. 
+Process your data following instructions described in the [GNPS feature-based molecular networking workflow (FBMN) documentation](https://ccms-ucsd.github.io/GNPSDocumentation/featurebasedmolecularnetworking/). 
+Note that two options in the "Peak list row filter" are required "Keep only features with MS/MS scan (GNPS)", 'Reset the peak number". By default, the bioactive molecular networks Jupyter notebook requires a table exported with the 'Export to CSV' module in MZmine, that includes 'Export row ID', 'Export row m/z', 'Export row retention time', and 'Peak area'. See the template provided. 
 
 #### Optimus: 
 Refers to the documentation on https://github.com/MolecularCartography/Optimus
-Note that the option 'MS/MS filter' has to be activated. For a video demo on how to use Optimus, see the following video (chapter 1):
-https://www.youtube.com/watch?v=zDcY7iuvyQY
+Note that the option 'MS/MS filter' has to be activated.
+
+#### Other processing tools supported:
+Note that the workflow can be adapted to any other tools available in the [GNPS feature-based molecular networking workflow (FBMN) documentation](https://ccms-ucsd.github.io/GNPSDocumentation/featurebasedmolecularnetworking/). In these cases, you might have to convert the feature table into the needed format. Note that  feature quantification table converted in the proper format can be downloaded from the FBMN results page. 
 
 #### Add the value of the bioassay experiments for each sample analyzed by LC-MS/MS in the table (features_quantification_matrix.csv to features_quantification_matrix_edited_bioactivity.csv) 
 NB: alternatively any other quantitative variable can be used instead (pH, metabolite, concentration, ....)
@@ -82,8 +86,8 @@ NB: note that the notebook is available as an R script as well (Bioactive_Molecu
 
 ### Step 3 - GNPS and Cytoscape
 - Go on Global Natural Product Social Molecular Networking web-platform http://gnps.ucsd.edu
-- Run a Data Analysis job following the GNPS data analysis 2.0 workflow. Important: the molecular networks will be generated from the .MGF file export with MZmine2 or Optimus, and MS-Cluster will not be used. See GNPS documentation https://bix-lab.ucsd.edu/display/Public/GNPS+data+analysis+workflow+2.0#GNPSdataanalysisworkflow2.0-GNPSdataanalysisworkflow2.0%3AOFFLINEversion and video tutorials for how to use GNPS https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos
-- Import your molecular networks in Cytoscape following GNPS documentation https://bix-lab.ucsd.edu/display/Public/Molecular+Networking+Documentation
+- Run a Data Analysis job following the GNPS feature-based molecular networking (FBMN) workflow. Important: the molecular networks will be generated from the .MGF file export with MZmine2 or Optimus, and MS-Cluster will not be used. See the [FBMN documentation](https://ccms-ucsd.github.io/GNPSDocumentation/featurebasedmolecularnetworking/) and video tutorials for how to use GNPS https://www.youtube.com/channel/UCufTdDIUPjfoN604Igv_29g/videos
+- Import your molecular networks in Cytoscape following GNPS documentation [https://ccms-ucsd.github.io/GNPSDocumentation/](https://ccms-ucsd.github.io/GNPSDocumentation/).
 - In Cytoscape, import the output table of the Jupyter notebook (features_quantification_matrix_transposed_with_significant_correlation_pvalue_corrected.csv) into your molecular networks.
 - In Cytoscape, use the Select function to select the nodes with significant bioactivity (typical threshold would be r2 > 0.8 and p-value < -0.02).
 - In Cytoscape, bypass the style of these nodes as needed (the node size or node shape can be used to visualize). Piechart diagrams can be used to display the distribution of an ion accross samples.
@@ -101,6 +105,8 @@ OpenMS: Röst, H. L.; Sachsenberg, T.; Aiche, S.; Bielow, C.; Weisser, H.; Aiche
 Optimus: Protsyuk, I.; Melnik, A. V.; Nothias, L.-F.; Rappez, L.; Phapale, P.; Aksenov, A. A.; Bouslimani, A.; Ryazanov, S.; Dorrestein, P. C.; Alexandrov, T. 3D Molecular Cartography Using LC-MS Facilitated by Optimus and ’Ili Software. Nat. Protoc. 2018, 13 (1), 134–154. https://www.nature.com/articles/nprot.2017.122
 
 Cytoscape: Shannon, P.; Markiel, A.; Ozier, O.; Baliga, N. S.; Wang, J. T.; Ramage, D.; Amin, N.; Schwikowski, B.; Ideker, T. Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks. Genome Res. 2003, 13 (11), 2498–2504. https://www.ncbi.nlm.nih.gov/pubmed/14597658
+
+Other processing tools if used with the FBMN workflow.
 
 ## Help and Troubleshooting
 - Jupyter notebook: there are multiple online ressources and videos available to present the functionality of Jupyter notebooks. Such as: https://www.youtube.com/watch?v=jZ952vChhuI&t=210s
